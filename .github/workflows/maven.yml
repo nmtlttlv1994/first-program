@@ -35,7 +35,7 @@ jobs:
       with:
         image: minhthongnguyen/spring-boot-image
         tags: latest
-        registry: docker.io
+        registry: https://index.docker.io/v2/ 
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
